@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages {
         stage('install Dependencies'){
-            steps{*
+            steps{
                 echo '********Installing dependencies*************'
                 // sh npm install
             }
